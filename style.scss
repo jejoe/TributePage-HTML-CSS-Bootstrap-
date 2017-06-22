@@ -1,0 +1,76 @@
+/* Global CSS */
+html {
+  height:100%;
+}
+
+body {
+ 
+  font-size:20px;
+  height:100%;
+}
+
+/* Local CSS */
+header {
+  background-image:url(http://www.oldisnew.org/playlists/images/piaf.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: 50% 50%;
+  min-height:100%;
+  padding-top:100px;
+}
+
+#intro {
+  padding:60px 0;
+  margin-bottom:80px;
+  min-height:100%;
+}
+
+#intro .smallProfile {
+  border-radius:50%;
+  width:200px;
+  height:200px;
+  display:none;
+}
+
+
+
+@media screen and (max-width:900px){
+  
+  header{
+    height:450px;
+    padding-top:76px;
+  }
+  
+ 
+  #intro {
+    padding:0 10px;
+    margin-bottom:30px;
+  }
+  
+ 
+} /* max-width 900 px */
+
+@media screen and (max-width:560px){
+
+  .forDesktopView {
+    display:none;
+  }
+  
+  #intro .smallProfile {
+    display:block;
+    margin:80px auto 0;
+  }
+   #intro .thevideo {
+    display:block;
+    margin:80px auto 0;
+  }
+ 
+
+} /* max-width 600 px */
+
+
+@media screen and (max-width:1536px){
+  .thevideo{
+    padding: 100px;
+  }
+}
